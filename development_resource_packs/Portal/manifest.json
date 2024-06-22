@@ -1,0 +1,25 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Portal",
+		"description": "Portal Resource Pack",
+		"uuid": "31f0d202-27c3-4a2f-6bfb-06513ca1afa8",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 21, 0]
+	},
+	"metadata": {
+		"authors": ["Kirbycope"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.5.1"],
+			"blockbench_block_wizard": ["1.2.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Portal",
+			"type": "resources",
+			"uuid": "ae6a0eb1-7944-2f49-33e3-f0ec8e0c80f8",
+			"version": [1, 0, 0]
+		}
+	]
+}

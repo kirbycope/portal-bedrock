@@ -1,0 +1,7 @@
+{
+	"texture_data": {
+		"companion_cube_spawn_egg": {
+			"textures": ["textures/items/companion_cube_spawn_egg"]
+		}
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Portal",
+		"description": "Portal Behavior Pack",
+		"uuid": "ece0da9b-570c-8bfb-6102-cfa970f73229",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 21, 0]
+	},
+	"metadata": {
+		"authors": ["Kirbycope"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.5.1"],
+			"blockbench_block_wizard": ["1.2.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "f04ad4bf-d292-d15f-bf79-d8723ffe9522",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "31f0d202-27c3-4a2f-6bfb-06513ca1afa8",
+			"version": [1, 0, 0]
+		}
+	]
+}

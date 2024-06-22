@@ -1,0 +1,4 @@
+entity.portal:companion_cube.name=Companion Cube
+item.spawn_egg.entity.portal:companion_cube.name=Spawn Companion Cube
+
+tile.portal:button.name=Heavy Duty Super-Colliding Super Button
