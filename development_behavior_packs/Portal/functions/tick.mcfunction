@@ -14,4 +14,4 @@ scoreboard players reset @a[scores={cc_held=2..}] cc_held
 #execute positioned ~ ~ ~ as @e[type=portal:companion_cube,r=1] run setblock ~ ~-1 ~1 minecraft:redstone_torch
 
 # Use this code for the Command Block under the Command Block under the Portal Button
-#execute positioned ~ ~ ~ unless entity @e[type=portal:companion_cube,r=1] run setblock ~ ~ ~1 minecraft:air replace
+#execute positioned ~ ~ ~ unless entity @e[type=portal:companion_cube,r=2] run setblock ~ ~ ~1 minecraft:air replace
