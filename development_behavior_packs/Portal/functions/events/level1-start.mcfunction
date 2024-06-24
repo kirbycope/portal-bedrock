@@ -16,4 +16,4 @@ execute as @s[scores={timer=1060}] run playsound 00.part1.entry.6 @s
 execute as @s[scores={timer=1120}] run playsound 00.part1.entry.7 @s
 
 # End timer
-execute as @s[scores={timer=500..}] run scoreboard players set @s timer 0
+execute as @s[scores={timer=1200..}] run scoreboard players set @s timer 0
