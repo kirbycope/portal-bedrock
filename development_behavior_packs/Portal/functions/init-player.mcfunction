@@ -1,8 +1,12 @@
 # Tag the player so this only runs once
 tag @s add init
 
+# Add a scoreboard to track the player's progress
+scoreboard objectives add progress dummy "Player Progress"
+scoreboard players add @s progress 0
+
 # Add a scoreboard to serve as an in-game timer
-scoreboard objectives add timer dummy
+scoreboard objectives add timer dummy "Timer"
 scoreboard players add @s timer 0
 
 # Add a scoreboard to track if the player is "holding" the Companion Cube

@@ -1,3 +1,6 @@
+# Set the progress
+scoreboard players set @s progress 1
+
 # Start timer
 execute as @s[scores={timer=0}] run scoreboard players set @s timer 1
 

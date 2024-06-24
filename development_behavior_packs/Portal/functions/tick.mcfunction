@@ -22,5 +22,8 @@ execute at @a[scores={radio_held=1}] run tp @e[type=portal:radio] ^ ^1.1 ^1 ~ ~
 # Reset Radio held (if necessary)
 scoreboard players reset @a[scores={radio_held=2..}] radio_held
 
+# Level 1 - Start
+execute as @a[scores={timer=1..,progress=1}] run function level1-start
+
 # Increment timer if running
 execute as @a[scores={timer=1..}] run scoreboard players add @s timer 1
