@@ -11,6 +11,17 @@
 			"minecraft:breathable": {
 				"breathes_water": true
 			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:knockback_resistance": {
+				"value": 1.0
+			},
 			"minecraft:interact": {
 				"interactions": [
 					{
@@ -20,6 +31,9 @@
 						}
 					}
 				]
+			},
+			"minecraft:movement": {
+				"value": 0.0
 			},
 			"minecraft:physics": {
 				"has_gravity": true,
