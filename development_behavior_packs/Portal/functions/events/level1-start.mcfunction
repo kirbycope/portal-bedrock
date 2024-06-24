@@ -13,7 +13,7 @@ execute as @s[scores={timer=1040}] run playsound 00.part1.entry.5 @s
 execute as @s[scores={timer=1160}] run playsound 00.part1.entry.6 @s
 execute as @s[scores={timer=1240}] run playsound 00.part1.entry.7 @s
 execute as @s[scores={timer=1360}] run playsound ding.on @s
-execute as @s[scores={timer=1400}] run playsound portal.open.1 @s
+execute as @s[scores={timer=1380}] run playsound portal.open.1 @s
 
 # End timer
 execute as @s[scores={timer=1480..}] run scoreboard players set @s timer 0
