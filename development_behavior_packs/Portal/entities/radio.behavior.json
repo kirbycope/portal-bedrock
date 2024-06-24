@@ -1,5 +1,5 @@
 {
-	"format_version": "1.16.100",
+	"format_version": "1.21.0",
 	"minecraft:entity": {
 		"description": {
 			"identifier": "portal:radio",
@@ -17,6 +17,9 @@
 			},
 			"minecraft:push_through": {
 				"value": 1
+			},
+			"minecraft:scale": {
+				"value": 0.5
 			}
 		}
 	}

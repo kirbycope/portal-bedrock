@@ -4,3 +4,6 @@ tag @s add init
 # Add a scored board to track if the player is "holding" the Companion Cube
 scoreboard objectives add cc_held dummy "Companion Cube Held"
 scoreboard players add @p cc_held 0
+
+# Play the radio music
+execute at @e[type=portal:radio] run playsound radio.loop

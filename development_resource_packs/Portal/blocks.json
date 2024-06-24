@@ -1,4 +1,7 @@
 {
+	"modern_table": {
+		"sound": "stone"
+	},
 	"button": {
 		"sound": "metal"
 	}

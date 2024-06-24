@@ -1,0 +1,11 @@
+{
+    "format_version": "1.21.0",
+    "sound_definitions": {
+        "radio.loop": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/looping_radio_mix"
+            ]
+        }
+    }
+}

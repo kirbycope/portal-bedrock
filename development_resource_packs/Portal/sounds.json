@@ -1,5 +1,17 @@
 {
 	"entity_sounds": {
-		"entities": {}
+		"entities": {
+			"portal:radio": {
+				"events": {
+					"loop": "radio.loop"
+				},
+				"pitch": [
+					1.00
+				],
+				"volume": [
+					0.80
+				]
+			}
+		}
 	}
 }

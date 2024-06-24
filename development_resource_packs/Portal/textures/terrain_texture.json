@@ -4,6 +4,9 @@
 	"padding": 8,
 	"num_mip_levels": 4,
 	"texture_data": {
+		"modern_table": {
+			"textures": "textures/blocks/modern_table.png"
+		},
 		"button": {
 			"textures": "textures/blocks/button.png"
 		}
