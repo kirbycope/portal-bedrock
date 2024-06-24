@@ -1,12 +1,12 @@
 entity.portal:companion_cube.name=Companion Cube
 item.spawn_egg.entity.portal:companion_cube.name=Spawn Companion Cube
-
 tile.portal:button.name=Heavy Duty Super-Colliding Super Button
 entity.portal:radio.name=Radio
 item.spawn_egg.entity.portal:radio.name=Spawn Radio
-tile.portal:modern_table.name=Modern Table
 tile.portal:modern_table.name=Modern Table
 entity.portal:toilet.name=Toilet
 item.spawn_egg.entity.portal:toilet.name=Spawn Toilet
 entity.portal:red_portal.name=Red Portal
 item.spawn_egg.entity.portal:red_portal.name=Spawn Red Portal
+entity.portal:blue_portal.name=Blue Portal
+item.spawn_egg.entity.portal:blue_portal.name=Spawn Blue Portal

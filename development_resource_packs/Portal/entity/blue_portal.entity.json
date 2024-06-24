@@ -1,0 +1,22 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "portal:blue_portal",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/blue_portal"
+			},
+			"geometry": {
+				"default": "geometry.blue_portal"
+			},
+			"render_controllers": ["controller.render.default"],
+			"spawn_egg": {
+				"base_color": "#ffffff",
+				"overlay_color": "#0025fc"
+			}
+		}
+	}
+}
