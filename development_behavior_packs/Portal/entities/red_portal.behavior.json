@@ -51,7 +51,7 @@
 				"sequence": [
 					{
 						"queue_command": {
-							"command": "execute at @e[type=portal:blue_portal] run tp @p ~1 ~ ~ 180"
+							"command": "execute at @e[type=portal:blue_portal] run tp @p ~ ~ ~-1 180"
 						}
 					}
 				]
