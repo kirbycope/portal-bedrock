@@ -12,6 +12,14 @@
 				"height": 1.0,
 				"width": 0.2
 			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			},
 			"minecraft:physics": {
 				"has_gravity": true,
 				"has_collision": true
