@@ -2,7 +2,7 @@
 execute as @a[tag=!init] run function init-player
 
 # "Hold" the 💟 Companion Cube
-execute at @a[scores={cc_held=1}] run tp @e[type=portal:companion_cube] ^ ^1.1 ^2 ~ ~
+execute at @a[scores={cc_held=1}] run tp @e[type=portal:companion_cube] ^ ^1.1 ^2 ~ ~ true
 
 # Reset Companion Cube held (if necessary)
 scoreboard players reset @a[scores={cc_held=2..}] cc_held
@@ -17,7 +17,7 @@ scoreboard players reset @a[scores={cc_held=2..}] cc_held
 #execute positioned ~ ~ ~ unless entity @e[type=portal:companion_cube,r=2] run setblock ~ ~ ~1 minecraft:air replace
 
 # "Hold" the 📻 Radio
-execute at @a[scores={radio_held=1}] run tp @e[type=portal:radio] ^ ^1.1 ^1 ~ ~
+execute at @a[scores={radio_held=1}] run tp @e[type=portal:radio] ^ ^1.1 ^1 ~ ~ true
 
 # Reset Radio held (if necessary)
 scoreboard players reset @a[scores={radio_held=2..}] radio_held
