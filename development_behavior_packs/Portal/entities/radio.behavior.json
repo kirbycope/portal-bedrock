@@ -11,6 +11,14 @@
 			"minecraft:breathable": {
 				"breathes_water": true
 			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			},
 			"minecraft:interact": {
 				"interactions": [
 					{
