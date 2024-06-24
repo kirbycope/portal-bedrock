@@ -5,12 +5,8 @@
 				"events": {
 					"loop": "radio.loop"
 				},
-				"pitch": [
-					1.00
-				],
-				"volume": [
-					0.80
-				]
+				"pitch": [1],
+				"volume": [0.8]
 			}
 		}
 	}

@@ -6,3 +6,5 @@ entity.portal:radio.name=Radio
 item.spawn_egg.entity.portal:radio.name=Spawn Radio
 tile.portal:modern_table.name=Modern Table
 tile.portal:modern_table.name=Modern Table
+entity.portal:toilet.name=Toilet
+item.spawn_egg.entity.portal:toilet.name=Spawn Toilet
