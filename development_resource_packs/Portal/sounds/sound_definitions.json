@@ -13,51 +13,52 @@
                 "sounds/glados/00_part1_entry-2"
             ]
         },
-        
-        "00.part1.entry.2":{
-            "category": "neutral",
-            "sounds": [
-                "sounds/glados/00_part1_entry-2"
-            ]
-        },
         "00.part1.entry.3":{
             "category": "neutral",
             "sounds": [
                 "sounds/glados/00_part1_entry-3"
             ]
         },
-        
         "00.part1.entry.4":{
             "category": "neutral",
             "sounds": [
                 "sounds/glados/00_part1_entry-4"
             ]
         },
-        
         "00.part1.entry.5":{
             "category": "neutral",
             "sounds": [
                 "sounds/glados/00_part1_entry-5"
             ]
         },
-        
         "00.part1.entry.6":{
             "category": "neutral",
             "sounds": [
                 "sounds/glados/00_part1_entry-6"
             ]
         },
-        
         "00.part1.entry.7":{
             "category": "neutral",
             "sounds": [
                 "sounds/glados/00_part1_entry-7"
             ]
         },
+        "ding.on":{
+            "category": "neutral",
+            "sounds": [
+                "sounds/ding_on"
+            ]
+        },
         "radio.loop": {
             "category": "neutral",
             "sounds": [
                 "sounds/looping_radio_mix"
+            ]
+        },
+        "portal.open.1": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/portal_open1"
             ]
         },
         "toilet.use":{
