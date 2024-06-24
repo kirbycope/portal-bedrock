@@ -16,4 +16,4 @@ execute as @s[scores={timer=1360}] run playsound ding.on @s
 execute as @s[scores={timer=1370}] run playsound portal.open.1 @s
 
 # End timer
-execute as @s[scores={timer=1480..}] run scoreboard players set @s timer 0
+execute as @s[scores={timer=1400..}] run scoreboard players set @s timer 0
