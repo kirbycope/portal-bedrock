@@ -1,5 +1,5 @@
 {
-	"format_version": "1.16.100",
+	"format_version": "1.16.0",
 	"minecraft:entity": {
 		"description": {
 			"identifier": "portal:red_portal",
@@ -20,6 +20,21 @@
 					}
 				]
 			},
+			"minecraft:entity_sensor": {
+				"sensor_range": 0.5,
+				"relative_range": false,
+				"minimum_count": 1,
+				"event_filters": {
+					"all_of": [
+						{
+							"test": "is_family",
+							"subject": "other",
+							"value": "player"
+						}
+					]
+				},
+				"event": "collision"
+			},
 			"minecraft:physics": {
 				"has_gravity": true,
 				"has_collision": true
@@ -29,6 +44,17 @@
 			},
 			"minecraft:push_through": {
 				"value": 1
+			}
+		},
+		"events": {
+			"collision": {
+				"sequence": [
+					{
+						"queue_command": {
+							"command": "execute at @e[type=portal:blue_portal] run tp @p ~ ~ ~ 180"
+						}
+					}
+				]
 			}
 		}
 	}
