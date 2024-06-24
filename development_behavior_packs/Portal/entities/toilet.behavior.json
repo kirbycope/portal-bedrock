@@ -19,9 +19,6 @@
 					}
 				]
 			},
-			"minecraft:knockback_resistance": {
-				"value": 1.0
-			},
 			"minecraft:interact": {
 				"interactions": [
 					{
@@ -31,9 +28,6 @@
 						}
 					}
 				]
-			},
-			"minecraft:movement": {
-				"value": 0.0
 			},
 			"minecraft:physics": {
 				"has_gravity": true,

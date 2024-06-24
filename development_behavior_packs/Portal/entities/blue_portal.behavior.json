@@ -1,5 +1,5 @@
 {
-	"format_version": "1.16.100",
+	"format_version": "1.21.0",
 	"minecraft:entity": {
 		"description": {
 			"identifier": "portal:blue_portal",
@@ -8,6 +8,10 @@
 			"is_experimental": false
 		},
 		"components": {
+			"minecraft:collision_box": {
+				"height": 1.0,
+				"width": 0.2
+			},
 			"minecraft:physics": {
 				"has_gravity": true,
 				"has_collision": true
