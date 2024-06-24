@@ -12,8 +12,12 @@ execute as @s[scores={timer=820}] run playsound 00.part1.entry.4 @s
 execute as @s[scores={timer=1040}] run playsound 00.part1.entry.5 @s
 execute as @s[scores={timer=1160}] run playsound 00.part1.entry.6 @s
 execute as @s[scores={timer=1240}] run playsound 00.part1.entry.7 @s
+
+# Spawn Portal(s)
 execute as @s[scores={timer=1360}] run playsound ding.on @s
 execute as @s[scores={timer=1365}] run playsound portal.open.1 @s
+execute as @s[scores={timer=1365}] run summon portal:red_portal 1.9 64 2 90
+execute as @s[scores={timer=1365}] run summon portal:blue_portal 0 63 5.9
 
 # End timer
 execute as @s[scores={timer=1400..}] run scoreboard players set @s timer 0
