@@ -6,6 +6,12 @@
             "sounds": [
                 "sounds/looping_radio_mix"
             ]
+        },
+        "toilet.use":{
+            "category": "neutral",
+            "sounds": [
+                "sounds/usetoilet_thank"
+            ]
         }
     }
 }

@@ -1,5 +1,5 @@
 {
-	"format_version": "1.16.100",
+	"format_version": "1.21.0",
 	"minecraft:entity": {
 		"description": {
 			"identifier": "portal:toilet",
@@ -8,6 +8,19 @@
 			"is_experimental": false
 		},
 		"components": {
+			"minecraft:breathable": {
+				"breathes_water": true
+			},
+			"minecraft:interact": {
+				"interactions": [
+					{
+						"on_interact": {
+							"event": "interact",
+							"target": "self"
+						}
+					}
+				]
+			},
 			"minecraft:physics": {
 				"has_gravity": true,
 				"has_collision": true
@@ -17,6 +30,17 @@
 			},
 			"minecraft:push_through": {
 				"value": 1
+			}
+		},
+		"events": {
+			"interact": {
+				"sequence": [
+					{
+						"queue_command": {
+							"command": "playsound toilet.use"
+						}
+					}
+				]
 			}
 		}
 	}
