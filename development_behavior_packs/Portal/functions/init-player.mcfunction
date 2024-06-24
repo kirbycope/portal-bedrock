@@ -21,4 +21,5 @@ scoreboard players add @s radio_held 0
 stopsound @s
 
 # Start level
+scoreboard players set @s progress 1
 function events/level1-start
