@@ -11,17 +11,6 @@
 			"minecraft:breathable": {
 				"breathes_water": true
 			},
-			"minecraft:physics": {
-				"has_gravity": true,
-				"has_collision": true,
-				"push_towards_closest_space": true
-			},
-			"minecraft:pushable": {
-				"is_pushable": true
-			},
-			"minecraft:push_through": {
-				"value": 1
-			},
 			"minecraft:interact": {
 				"interactions": [
 					{
@@ -32,10 +21,16 @@
 					}
 				]
 			},
-			"minecraft:type_family": {
-				"family": [
-					"mob"
-				]
+			"minecraft:physics": {
+				"has_gravity": true,
+				"has_collision": true,
+				"push_towards_closest_space": true
+			},
+			"minecraft:pushable": {
+				"is_pushable": true
+			},
+			"minecraft:push_through": {
+				"value": 1
 			}
 		},
 		"events": {

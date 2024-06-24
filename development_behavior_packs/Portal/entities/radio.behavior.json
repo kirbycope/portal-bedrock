@@ -8,6 +8,19 @@
 			"is_experimental": false
 		},
 		"components": {
+			"minecraft:breathable": {
+				"breathes_water": true
+			},
+			"minecraft:interact": {
+				"interactions": [
+					{
+						"on_interact": {
+							"event": "interact",
+							"target": "self"
+						}
+					}
+				]
+			},
 			"minecraft:physics": {
 				"has_gravity": true,
 				"has_collision": true
@@ -20,6 +33,17 @@
 			},
 			"minecraft:scale": {
 				"value": 0.5
+			}
+		},
+		"events": {
+			"interact": {
+				"sequence": [
+					{
+						"queue_command": {
+							"command": "scoreboard players add @a radio_held 1"
+						}
+					}
+				]
 			}
 		}
 	}
