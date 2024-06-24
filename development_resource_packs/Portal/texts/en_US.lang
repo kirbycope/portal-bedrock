@@ -8,3 +8,5 @@ tile.portal:modern_table.name=Modern Table
 tile.portal:modern_table.name=Modern Table
 entity.portal:toilet.name=Toilet
 item.spawn_egg.entity.portal:toilet.name=Spawn Toilet
+entity.portal:red_portal.name=Red Portal
+item.spawn_egg.entity.portal:red_portal.name=Spawn Red Portal
