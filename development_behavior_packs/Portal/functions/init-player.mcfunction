@@ -1,5 +1,6 @@
 # Hide how the sausage is made
 gamerule sendcommandfeedback false
+gamerule commandblockoutput false
 
 # Tag the player so this only runs once
 tag @s add init
