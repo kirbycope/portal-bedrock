@@ -1,4 +1,7 @@
 {
+	"observation_desk": {
+		"sound": "metal"
+	},
 	"modern_table": {
 		"sound": "stone"
 	},

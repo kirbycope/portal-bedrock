@@ -10,3 +10,5 @@ entity.portal:red_portal.name=Red Portal
 item.spawn_egg.entity.portal:red_portal.name=Spawn Red Portal
 entity.portal:blue_portal.name=Blue Portal
 item.spawn_egg.entity.portal:blue_portal.name=Spawn Blue Portal
+
+tile.portal:observation_desk.name=Observation Desk
