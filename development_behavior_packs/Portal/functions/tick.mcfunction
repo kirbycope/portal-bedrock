@@ -8,13 +8,13 @@ execute at @a[scores={cc_held=1}] run tp @e[type=portal:companion_cube] ^ ^1.1 ^
 scoreboard players reset @a[scores={cc_held=2..}] cc_held
 
 # Use this code for the Command Block under the Portal Button
-#execute positioned ~ ~ ~ as @e[type=portal:companion_cube,r=1] run setblock ~ ~-1 ~1 minecraft:redstone_torch
+#execute positioned ~ ~ ~ as @e[type=portal:companion_cube,r=1] run function events/level00-button1-activate
 
 # Use this code for the Command Block under the Command Block under the Portal Button
-#execute positioned ~ ~ ~ unless entity @e[type=portal:companion_cube,r=2] run setblock ~ ~ ~1 minecraft:air replace
+#execute positioned ~ ~ ~ unless entity @e[type=portal:companion_cube,r=2] run function events/level00-button1-deactivate
 
 # "Hold" the 📻 Radio
-execute at @a[scores={radio_held=1}] run tp @e[type=portal:radio] ^ ^1.1 ^1 ~ ~ true
+execute at @a[scores={radio_held=1}] run tp @e[type=portal:radio] ^ ^1.3 ^1 ~ ~ true
 
 # Reset Radio held (if necessary)
 scoreboard players reset @a[scores={radio_held=2..}] radio_held
