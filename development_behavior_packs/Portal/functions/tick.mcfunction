@@ -28,8 +28,14 @@ execute at @e[type=portal:blue_portal] run particle portal:blue_effect ~ ~ ~
 # Red Portal particle effect
 execute at @e[type=portal:red_portal] run particle portal:red_effect ~ ~ ~
 
-# Level 1 - Start
-execute as @a[scores={timer=1..,progress=1}] run function events/level1-start
+# [Trigger] Level 00 - Start
+execute as @a[scores={timer=0,progress=0}] 
+
+# Level 00 - Start
+execute as @a[scores={timer=1..,progress=0}] run function events/level00-start
+
+# [Trigger] Level 00 - End
+execute as @p[x=15,y=63,z=6,dx=1,dy=0,dz=0,scores={progress=1}] run function events/level00-end
 
 # Increment timer if running
 execute as @a[scores={timer=1..}] run scoreboard players add @s timer 1
