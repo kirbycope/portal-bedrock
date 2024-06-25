@@ -51,7 +51,7 @@
 				"sequence": [
 					{
 						"queue_command": {
-							"command": "execute at @e[type=portal:red_portal] run tp @p ~-1 ~ ~ 90"
+							"command": "function events/teleport-to-red"
 						}
 					}
 				]

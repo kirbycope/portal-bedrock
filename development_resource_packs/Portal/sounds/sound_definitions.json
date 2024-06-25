@@ -61,16 +61,40 @@
                 "sounds/glados/00_part1_success-3"
             ]
         },
+        "ding.off":{
+            "category": "neutral",
+            "sounds": [
+                "sounds/ding_off"
+            ]
+        },
         "ding.on":{
             "category": "neutral",
             "sounds": [
                 "sounds/ding_on"
             ]
         },
+        "dinosaur.fizzle":{
+            "category": "neutral",
+            "sounds": [
+                "sounds/dinosaur_fizzle"
+            ]
+        },
         "radio.loop": {
             "category": "neutral",
             "sounds": [
                 "sounds/looping_radio_mix"
+            ]
+        },
+        "portal.enter.1": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/portal_enter1"
+            ]
+        },
+        "portal.exit.1": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/portal_exit1"
             ]
         },
         "portal.open.1": {

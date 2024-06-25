@@ -7,4 +7,5 @@ execute as @a[scores={progress=2}] run function events/level00-end
 
 # Level 00 - Part 1 - Material Emancipation Grill
 execute as @a[scores={progress=2..3}] run particle portal:material_emancipation_grid 16 63 13
+execute as @e[x=15,y=63,z=13,dx=0,dy=2,dz=4,type=!minecraft:player] run playsound dinosaur.fizzle @p ~ ~ ~ 0.5
 execute as @e[x=15,y=63,z=13,dx=0,dy=2,dz=4,type=!minecraft:player] run kill @s
