@@ -22,6 +22,3 @@ scoreboard players add @s radio_held 0
 
 # Stop other sounds
 stopsound @s
-
-# Start level 00
-function events/level00-start
