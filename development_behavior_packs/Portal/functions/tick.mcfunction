@@ -22,6 +22,12 @@ execute at @a[scores={radio_held=1}] run tp @e[type=portal:radio] ^ ^1.1 ^1 ~ ~ 
 # Reset Radio held (if necessary)
 scoreboard players reset @a[scores={radio_held=2..}] radio_held
 
+# Blue Portal particle effect
+execute at @e[type=portal:blue_portal] run particle portal:blue_effect ~ ~ ~
+
+# Red Portal particle effect
+execute at @e[type=portal:red_portal] run particle portal:red_effect ~ ~ ~
+
 # Level 1 - Start
 execute as @a[scores={timer=1..,progress=1}] run function events/level1-start
 
