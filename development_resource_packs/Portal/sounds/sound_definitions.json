@@ -1,61 +1,61 @@
 {
     "format_version": "1.21.0",
     "sound_definitions": {
-        "00.part1.entry.1":{
+        "00.entry.1":{
             "category": "neutral",
             "sounds": [
                 "sounds/glados/00_part1_entry-1"
             ]
         },
-        "00.part1.entry.2":{
+        "00.entry.2":{
             "category": "neutral",
             "sounds": [
                 "sounds/glados/00_part1_entry-2"
             ]
         },
-        "00.part1.entry.3":{
+        "00.entry.3":{
             "category": "neutral",
             "sounds": [
                 "sounds/glados/00_part1_entry-3"
             ]
         },
-        "00.part1.entry.4":{
+        "00.entry.4":{
             "category": "neutral",
             "sounds": [
                 "sounds/glados/00_part1_entry-4"
             ]
         },
-        "00.part1.entry.5":{
+        "00.entry.5":{
             "category": "neutral",
             "sounds": [
                 "sounds/glados/00_part1_entry-5"
             ]
         },
-        "00.part1.entry.6":{
+        "00.entry.6":{
             "category": "neutral",
             "sounds": [
                 "sounds/glados/00_part1_entry-6"
             ]
         },
-        "00.part1.entry.7":{
+        "00.entry.7":{
             "category": "neutral",
             "sounds": [
                 "sounds/glados/00_part1_entry-7"
             ]
         },
-        "00.part1.success.1":{
+        "00.success.1":{
             "category": "neutral",
             "sounds": [
                 "sounds/glados/00_part1_success-1"
             ]
         },
-        "00.part1.success.2":{
+        "00.success.2":{
             "category": "neutral",
             "sounds": [
                 "sounds/glados/00_part1_success-2"
             ]
         },
-        "00.part1.success.3":{
+        "00.success.3":{
             "category": "neutral",
             "sounds": [
                 "sounds/glados/00_part1_success-3"
