@@ -8,6 +8,10 @@ tag @s add init
 scoreboard objectives add progress dummy "Player Progress"
 scoreboard players set @s progress 0
 
+# Level 00 Trackers
+scoreboard objectives add btn_00_01 dummy "Level 00 Button 01"
+scoreboard players set @s btn_00_01 0
+
 # Add a scoreboard to serve as an in-game timer
 scoreboard objectives add timer dummy "Timer"
 scoreboard players set @s timer 0
