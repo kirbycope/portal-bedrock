@@ -7,9 +7,6 @@ execute at @a[scores={cc_held=1}] run tp @e[type=portal:companion_cube] ^ ^1.1 ^
 # Reset Companion Cube held (if necessary)
 scoreboard players reset @a[scores={cc_held=2..}] cc_held
 
-# Button + Cube = Technology
-#execute positioned ~ ~ ~ as @e[type=portal:companion_cube,r=1] run say hi
-
 # Use this code for the Command Block under the Portal Button
 #execute positioned ~ ~ ~ as @e[type=portal:companion_cube,r=1] run setblock ~ ~-1 ~1 minecraft:redstone_torch
 
@@ -28,11 +25,12 @@ execute at @e[type=portal:blue_portal] run particle portal:blue_effect ~ ~ ~
 # Red Portal particle effect
 execute at @e[type=portal:red_portal] run particle portal:red_effect ~ ~ ~
 
-# Level 00 - Start
-execute as @a[scores={progress=0}] run function events/level00-start
+# Level 00 - Part 1 - Start
+execute as @a[scores={progress=0}] run function events/level00-part1-start
 
-# Level 00 - End
-#execute as @p[x=15,y=63,z=6,dx=1,dy=0,dz=0,scores={progress=1}] run function events/level00-end
+# Level 00 - Part 1 - End
+execute as @p[x=15,y=63,z=6,dx=1,dy=0,dz=0,scores={progress=1}] run scoreboard players set @s progress 2
+execute as @a[scores={progress=2}] run function events/level00-part1-end
 
 # Increment timer if running
 execute as @a[scores={timer=1..}] run scoreboard players add @s timer 1
