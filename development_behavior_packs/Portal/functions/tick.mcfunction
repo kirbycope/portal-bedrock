@@ -33,7 +33,7 @@ execute as @p[x=15,y=63,z=6,dx=1,dy=0,dz=0,scores={progress=1}] run scoreboard p
 execute as @a[scores={progress=2}] run function events/level00-part1-end
 # Level 00 - Part 1 - Emancipation Grid
 execute as @a[scores={progress=2..3}] run particle portal:material_emancipation_grid 16 63 13
-execute as @e[x=15,y=63,z=13,dx=0,dy=1,dz=0,type=!minecraft:player] run kill @s
+execute as @e[x=15,y=63,z=13,dx=0,dy=2,dz=4,type=!minecraft:player] run kill @s
 
 # Increment timer if running
 execute as @a[scores={timer=1..}] run scoreboard players add @s timer 1
