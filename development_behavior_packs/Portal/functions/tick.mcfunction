@@ -7,6 +7,12 @@ execute at @a[scores={cc_held=1}] run tp @e[type=portal:companion_cube] ^ ^1.1 ^
 # Reset Companion Cube held (if necessary)
 scoreboard players reset @a[scores={cc_held=2..}] cc_held
 
+# "Hold" the ⏺ Weighted Storage Cube
+execute at @a[scores={wc_held=1}] run tp @e[type=portal:weighted_storage_cube] ^ ^1.1 ^2 ~ ~ true
+
+# Reset Weighted Storage Cube held (if necessary)
+scoreboard players reset @a[scores={cc_held=2..}] cc_held
+
 # Use this code for the Command Block under the Portal Button
 #execute positioned ~ ~ ~ as @e[family=player,r=1] run function events/level00-button1-activate
 

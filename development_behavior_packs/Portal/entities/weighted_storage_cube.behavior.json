@@ -1,0 +1,61 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "portal:weighted_storage_cube",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:breathable": {
+				"breathes_water": true
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:type_family": {
+				"family": [
+					"player"
+				]
+			},
+			"minecraft:interact": {
+				"interactions": [
+					{
+						"on_interact": {
+							"event": "interact",
+							"target": "self"
+						}
+					}
+				]
+			},
+			"minecraft:physics": {
+				"has_gravity": true,
+				"has_collision": true,
+				"push_towards_closest_space": true
+			},
+			"minecraft:pushable": {
+				"is_pushable": false
+			},
+			"minecraft:push_through": {
+				"value": 1
+			}
+		},
+		"events": {
+			"interact": {
+				"sequence": [
+					{
+						"queue_command": {
+							"command": "scoreboard players add @a wc_held 1"
+						}
+					}
+				]
+			}
+		}
+	}
+}

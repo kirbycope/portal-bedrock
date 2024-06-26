@@ -21,6 +21,10 @@ scoreboard players set @s timer 0
 scoreboard objectives add cc_held dummy "Companion Cube Held"
 scoreboard players set @s cc_held 0
 
+# Add a scoreboard to track if the player is "holding" the Weighted Storage Cube
+scoreboard objectives add wc_held dummy "Weighted Storage Cube Held"
+scoreboard players set @s wc_held 0
+
 # Add a scoreboard to track if the player is "holding" the Radio
 scoreboard objectives add radio_held dummy "Radio Held"
 scoreboard players set @s radio_held 0
