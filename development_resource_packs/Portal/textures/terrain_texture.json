@@ -4,6 +4,9 @@
 	"padding": 8,
 	"num_mip_levels": 4,
 	"texture_data": {
+		"box_dropper": {
+			"textures": "textures/blocks/box_dropper.png"
+		},
 		"observation_desk": {
 			"textures": "textures/blocks/observation_desk.png"
 		},

@@ -1,4 +1,7 @@
 {
+	"box_dropper": {
+		"sound": "metal"
+	},
 	"observation_desk": {
 		"sound": "metal"
 	},

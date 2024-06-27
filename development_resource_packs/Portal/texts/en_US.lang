@@ -14,3 +14,4 @@ item.spawn_egg.entity.portal:blue_portal.name=Spawn Blue Portal
 tile.portal:observation_desk.name=Observation Desk
 entity.portal:weighted_storage_cube.name=Weighted Storage Cube
 item.spawn_egg.entity.portal:weighted_storage_cube.name=Spawn Weighted Storage Cube
+tile.portal:box_dropper.name=Box Dropper
