@@ -14,3 +14,4 @@
 | `cracked_deepslate_tiles` | cracked_deepslate_tiles |  |
 | `glass` | | glasswindow_frosted (1/2) |
 | `glass_white` | | glasswindow_frosted (2/2) |
+| `deepslate_bricks` |  | observation_tilefloor001a |
