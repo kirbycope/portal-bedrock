@@ -18,3 +18,6 @@ tile.portal:observation_window_01.name=Observation Window 01
 tile.portal:observation_window_02.name=Observation Window 02
 tile.portal:observation_window_03.name=Observation Window 03
 tile.portal:observation_window_04.name=Observation Window 04
+
+entity.portal:camera.name=Camera
+item.spawn_egg.entity.portal:camera.name=Spawn Camera
