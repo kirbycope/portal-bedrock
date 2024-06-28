@@ -1,4 +1,16 @@
 {
+	"observation_window_04": {
+		"sound": "glass"
+	},
+	"observation_window_03": {
+		"sound": "glass"
+	},
+	"observation_window_02": {
+		"sound": "glass"
+	},
+	"observation_window_01": {
+		"sound": "glass"
+	},
 	"box_dropper": {
 		"sound": "metal"
 	},
