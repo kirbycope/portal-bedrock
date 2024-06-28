@@ -13,12 +13,6 @@ execute at @a[scores={wc_held=1}] run tp @e[type=portal:weighted_storage_cube] ^
 # Reset Weighted Storage Cube held (if necessary)
 scoreboard players reset @a[scores={wc_held=2..}] wc_held
 
-# Use this code for the Command Block under the Portal Button
-#execute positioned ~ ~ ~ as @e[family=player,r=1] run function events/level00-button1-activate
-
-# Use this code for the Command Block under the Command Block under the Portal Button
-#execute positioned ~ ~ ~ unless entity @e[family=player,r=2] run function events/level00-button1-deactivate
-
 # "Hold" the 📻 Radio
 execute at @a[scores={radio_held=1}] run tp @e[type=portal:radio] ^ ^1.3 ^1 ~ ~ true
 
