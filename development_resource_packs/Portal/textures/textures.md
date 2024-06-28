@@ -8,7 +8,7 @@
 | `stonebrick_carved` | stonebrick data: 3 | concrete_modular_ceiling001a |
 | `stonebrick_cracked` | stonebrick data: ? |  |
 | `deepslate_tiles` | deepslate_tiles | metalwall_bts_002c |
-| `chiseled_deepslate` | chiseled_deepslate |  |
+| `chiseled_deepslate` | chiseled_deepslate | metalwall048b_lrg |
 | `cobbled_deepslate` | cobbled_deepslate |  |
 | `cracked_deepslate_bricks` | cracked_deepslate_bricks |  |
 | `cracked_deepslate_tiles` | cracked_deepslate_tiles |  |
