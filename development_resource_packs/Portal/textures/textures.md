@@ -15,3 +15,5 @@
 | `glass` | | glasswindow_frosted (1/2) |
 | `glass_white` | | glasswindow_frosted (2/2) |
 | `deepslate_bricks` |  | observation_tilefloor001a |
+| `door_dark_oak_upper` |  | door01a_skin6 (1/2) |
+| `door_dark_oak_lower` |  | door01a_skin6 (2/2) |
