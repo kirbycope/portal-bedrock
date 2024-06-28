@@ -8,8 +8,24 @@
 			"is_experimental": false
 		},
 		"components": {
+			"minecraft:breathable": {
+				"breathes_water": true
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:behavior.look_at_player": {
+			  "priority": 1,
+			  "target_distance": 8.0,
+			  "probability": 1.00
+			},
 			"minecraft:physics": {
-				"has_gravity": true,
+				"has_gravity": false,
 				"has_collision": true
 			},
 			"minecraft:pushable": {
