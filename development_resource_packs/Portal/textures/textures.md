@@ -18,4 +18,7 @@
 | `door_dark_oak_upper` |  | door01a_skin6 (1/2) |
 | `door_dark_oak_lower` |  | door01a_skin6 (2/2) |
 | `stone` | stone | concrete_modular_floor001c |
-| `glazed_terracotta_silver` |  | plasticwall003a + plasticwall004a |
+| `` |  | plasticwall003a + plasticwall004a (1/4) |
+| `` |  | plasticwall003a + plasticwall004a (2/4) |
+| `` |  | plasticwall003a + plasticwall004a (3/4) |
+| `` |  | plasticwall003a + plasticwall004a (4/4) |
