@@ -12,7 +12,15 @@
 			"geometry": {
 				"default": "geometry.camera"
 			},
-			"render_controllers": ["controller.render.default"],
+			"scripts": {
+				"pre_animation": [
+					"v.rotation_to_camera_0 = -Math.atan2(-q.distance_from_camera * Math.sin(q.rotation_to_camera(0)) - 1, q.distance_from_camera * Math.cos(q.rotation_to_camera(0)));",
+					"v.look_at_entity = Math.abs(Math.abs(q.rotation_to_camera(1) - q.camera_rotation(1)) - 180) < (20 / q.distance_from_camera) && Math.abs(v.rotation_to_camera_0 + q.camera_rotation(0)) < (60 / q.distance_from_camera);"
+				]
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
 			"spawn_egg": {
 				"base_color": "#7e7c7f",
 				"overlay_color": "#ba3a2d"
