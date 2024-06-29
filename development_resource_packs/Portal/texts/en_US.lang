@@ -21,3 +21,4 @@ tile.portal:observation_window_04.name=Observation Window 04
 
 entity.portal:camera.name=Camera
 item.spawn_egg.entity.portal:camera.name=Spawn Camera
+tile.portal:camera_arm.name=Camera Arm

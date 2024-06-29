@@ -18,8 +18,8 @@
 					"v.look_at_entity = Math.abs(Math.abs(q.rotation_to_camera(1) - q.camera_rotation(1)) - 180) < (20 / q.distance_from_camera) && Math.abs(v.rotation_to_camera_0 + q.camera_rotation(0)) < (60 / q.distance_from_camera);"
 				],
 				"animate": [
-                    "look_at_target"
-                ]
+					"look_at_target"
+				]
 			},
 			"animations": {
 				"look_at_target": "animation.common.look_at_target"

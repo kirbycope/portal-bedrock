@@ -4,6 +4,9 @@
 	"padding": 8,
 	"num_mip_levels": 4,
 	"texture_data": {
+		"camera_arm": {
+			"textures": "textures/blocks/camera_arm.png"
+		},
 		"observation_window_01": {
 			"textures": "textures/blocks/observation_window_01.png"
 		},

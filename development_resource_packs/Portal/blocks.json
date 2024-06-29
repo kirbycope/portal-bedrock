@@ -1,4 +1,7 @@
 {
+	"camera_arm": {
+		"sound": "metal"
+	},
 	"observation_window_04": {
 		"sound": "glass"
 	},
