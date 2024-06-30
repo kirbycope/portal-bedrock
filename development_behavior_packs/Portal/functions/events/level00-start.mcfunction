@@ -8,7 +8,7 @@ execute as @s[scores={timer=60}] run execute at @e[type=portal:radio] run playso
 execute as @s[scores={timer=500}] run playsound 00.entry.1 @s
 execute as @s[scores={timer=500}] run tellraw @s {"rawtext":[{"text":"§c§oHello and, again, welcome to the Aperture Science computer-aided enrichment center.§r§c§r"}]}
 execute as @s[scores={timer=620}] run playsound 00.entry.2 @s
-execute as @s[scores={timer=620}] run tellraw @s actionbar {"rawtext":[{"text":"§c§oWe hope your brief detention in the relaxation vault has been a pleasant one.§r§c§r"}]}
+execute as @s[scores={timer=620}] run tellraw @s {"rawtext":[{"text":"§c§oWe hope your brief detention in the relaxation vault has been a pleasant one.§r§c§r"}]}
 execute as @s[scores={timer=720}] run playsound 00.entry.3 @s
 execute as @s[scores={timer=720}] run tellraw @s {"rawtext":[{"text":"§c§oYour specimen has been processed and we are now ready to begin the test proper.§r§c§r"}]}
 execute as @s[scores={timer=820}] run playsound 00.entry.4 @s
