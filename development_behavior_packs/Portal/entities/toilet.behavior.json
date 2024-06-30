@@ -45,7 +45,7 @@
 				"sequence": [
 					{
 						"queue_command": {
-							"command": "playsound toilet.use @p"
+							"command": "function events/toilet-use"
 						}
 					}
 				]
