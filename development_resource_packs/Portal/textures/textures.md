@@ -23,3 +23,4 @@
 | `` |  | plasticwall003a + plasticwall004a (3/4) |
 | `` |  | plasticwall003a + plasticwall004a (4/4) |
 | `obsidian` | obsidian | metal_lift001e |
+| `glass_silver` |  | metalgrate018 |
