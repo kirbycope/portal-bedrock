@@ -2,13 +2,13 @@
 execute as @a[tag=!init] run function init-player
 
 # "Hold" the 💟 Companion Cube
-execute at @a[scores={cc_held=1}] run tp @e[type=portal:companion_cube] ^ ^1.1 ^2 ~ ~ true
+execute at @a[scores={cc_held=1}] run tp @e[type=portal:companion_cube] ^ ^1.1 ^1.8 ~ ~ true
 
 # Reset Companion Cube held (if necessary)
 scoreboard players reset @a[scores={cc_held=2..}] cc_held
 
 # "Hold" the ⏺ Weighted Storage Cube
-execute at @a[scores={wc_held=1}] run tp @e[type=portal:weighted_storage_cube] ^ ^1.1 ^2 ~ ~ true
+execute at @a[scores={wc_held=1}] run tp @e[type=portal:weighted_storage_cube] ^ ^1.1 ^1.8 ~ ~ true
 
 # Reset Weighted Storage Cube held (if necessary)
 scoreboard players reset @a[scores={wc_held=2..}] wc_held

@@ -24,7 +24,7 @@ execute as @s[scores={timer=1240}] run tellraw @s {"rawtext":[{"text":"§c§osta
 execute as @s[scores={timer=1360}] run playsound ding.on @s
 execute as @s[scores={timer=1365}] run playsound portal.open.1 @s
 execute as @s[scores={timer=1365}] run summon portal:red_portal 1.9 64 2 90
-execute as @s[scores={timer=1365}] run summon portal:blue_portal 0 63 5.9
+execute as @s[scores={timer=1365}] run summon portal:blue_portal 0 63 6.9
 
 # Update progress
 execute as @s[scores={timer=1400}] run scoreboard players set @s progress 1
