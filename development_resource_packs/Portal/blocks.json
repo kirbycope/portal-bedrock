@@ -1,4 +1,10 @@
 {
+	"wall_45_02": {
+		"sound": "metal"
+	},
+	"wall_45_01": {
+		"sound": "metal"
+	},
 	"camera_arm": {
 		"sound": "metal"
 	},

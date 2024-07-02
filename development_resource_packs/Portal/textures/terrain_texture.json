@@ -4,6 +4,12 @@
 	"padding": 8,
 	"num_mip_levels": 4,
 	"texture_data": {
+		"wall_45_02": {
+			"textures": "textures/blocks/wall_45_02.png"
+		},
+		"wall_45_01": {
+			"textures": "textures/blocks/wall_45_01.png"
+		},
 		"camera_arm": {
 			"textures": "textures/blocks/camera_arm.png"
 		},
