@@ -11,6 +11,10 @@
 			"minecraft:breathable": {
 				"breathes_water": true
 			},
+			"minecraft:collision_box": {
+			  "width": 1.0,
+			  "height": 1.0
+			},
 			"minecraft:damage_sensor": {
 				"triggers": [
 					{
@@ -19,11 +23,7 @@
 					}
 				]
 			},
-			"minecraft:type_family": {
-				"family": [
-					"player"
-				]
-			},
+			"minecraft:is_stackable": {},
 			"minecraft:interact": {
 				"interactions": [
 					{
@@ -36,14 +36,18 @@
 			},
 			"minecraft:physics": {
 				"has_gravity": true,
-				"has_collision": true,
-				"push_towards_closest_space": true
+				"has_collision": true
 			},
 			"minecraft:pushable": {
 				"is_pushable": false
 			},
-			"minecraft:push_through": {
-				"value": 1
+			"minecraft:scale": {
+				"value": 0.70
+			},
+			"minecraft:type_family": {
+				"family": [
+					"player"
+				]
 			}
 		},
 		"events": {
