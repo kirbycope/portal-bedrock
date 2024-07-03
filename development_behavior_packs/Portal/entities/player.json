@@ -171,7 +171,8 @@
           "event": "minecraft:gain_raid_omen"
         }
       },
-      "minecraft:is_stackable":{}
+      "minecraft:is_stackable":{},
+      "minecraft:scale": { "value": 0.8 }
     },
 
     "events": {
