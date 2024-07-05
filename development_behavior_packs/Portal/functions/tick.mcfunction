@@ -43,3 +43,7 @@ execute as @a[scores={progress=0..3}] run function ticks/level00
 
 # Increment timer if running
 execute as @a[scores={timer=1..}] run scoreboard players add @s timer 1
+
+## Notes ##
+# Level 01
+# /tp 11.0 73 16.0
