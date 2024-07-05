@@ -29,5 +29,9 @@ scoreboard players set @s wc_held 0
 scoreboard objectives add radio_held dummy "Radio Held"
 scoreboard players set @s radio_held 0
 
+# Add a scoreboard to track if the player has the Portal Gun in thier main hand
+scoreboard objectives add gun_held dummy "Portal Gun Held"
+scoreboard players set @s gun_held 0
+
 # Stop other sounds
 stopsound @s

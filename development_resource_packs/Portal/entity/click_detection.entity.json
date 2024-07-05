@@ -1,0 +1,22 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "portal:click_detection",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/click_detection"
+			},
+			"geometry": {
+				"default": "geometry.click_detection"
+			},
+			"render_controllers": ["controller.render.default"],
+			"spawn_egg": {
+				"base_color": "#9004d3",
+				"overlay_color": "#e044f9"
+			}
+		}
+	}
+}

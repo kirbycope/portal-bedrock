@@ -24,3 +24,6 @@ item.spawn_egg.entity.portal:camera.name=Spawn Camera
 tile.portal:camera_arm.name=Camera Arm
 tile.portal:wall_45_01.name=Wall 45 01
 tile.portal:wall_45_02.name=Wall 45 02
+item.portal:handheld_portal_device=Handheld Portal Device
+entity.portal:click_detection.name=Click Detection
+item.spawn_egg.entity.portal:click_detection.name=Spawn Click Detection

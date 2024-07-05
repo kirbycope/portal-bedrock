@@ -25,6 +25,19 @@ execute at @e[type=portal:blue_portal] run particle portal:blue_effect ~ ~ ~
 # Red Portal particle effect
 execute at @e[type=portal:red_portal] run particle portal:red_effect ~ ~ ~
 
+## Work in Progress #########################
+
+# Set Portal Gun held check result to 0
+scoreboard players set @a gun_held 0
+# Check if holding the Portal Gun
+scoreboard players set @a[hasitem={item=portal:handheld_portal_device,location=slot.weapon.mainhand}] gun_held 1
+# Move the click detection entity if not holding the Portal Gun
+execute at @a[scores={gun_held=0}] run tp @e[type=portal:click_detection] ~ ~-2.1 ~
+# Summon/Teleport the click detection entity to the player's location (slightly under to hide shadow)
+execute at @a[scores={gun_held=1}] run tp @e[type=portal:click_detection] ~ ~-0.1 ~
+
+##############################################
+
 # Level 00 - Tick
 execute as @a[scores={progress=0..3}] run function ticks/level00
 

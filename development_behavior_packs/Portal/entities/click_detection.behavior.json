@@ -1,0 +1,72 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "portal:click_detection",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:breathable": {
+				"breathes_water": true
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "entity_attack",
+						"deals_damage": false,
+						"on_damage": {
+							"event": "attack",
+							"target": "self"
+						}
+					},
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:interact": {
+				"interactions": [
+					{
+						"on_interact": {
+							"event": "interact",
+							"target": "self"
+						}
+					}
+				]
+			},
+			"minecraft:physics": {
+				"has_gravity": true,
+				"has_collision": true
+			},
+			"minecraft:pushable": {
+				"is_pushable": false
+			},
+			"minecraft:push_through": {
+				"value": 1
+			}
+		},
+		"events": {
+			"attack": {
+				"sequence": [
+					{
+						"queue_command": {
+							"command": "function events/place-portal-blue"
+						}
+					}
+				]
+			},
+			"interact": {
+				"sequence": [
+					{
+						"queue_command": {
+							"command": "function events/place-portal-red"
+						}
+					}
+				]
+			}
+		}
+	}
+}
