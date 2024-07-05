@@ -7,4 +7,4 @@ This document is used to define the progression.
 | 1 | Level 00 Intro dialog played | `functions\events\level00-start.mcfunction` |
 | 2 | Level 00 finish line reached | `functions\tick.mcfunction` |
 | 3 | Level 00 Outro dialog played | `functions\events\level00-end.mcfunction` |
-| 4 | Level 01 loaded |
+| 4 | Level 01 loaded | `functions\events\level01-start.mcfunction` |
