@@ -8,3 +8,4 @@ This document is used to define the progression.
 | 2 | Level 00 finish line reached | `functions\tick.mcfunction` |
 | 3 | Level 00 Outro dialog played | `functions\events\level00-end.mcfunction` |
 | 4 | Level 01 loaded | `functions\events\level01-start.mcfunction` |
+| 5 | Level 01 Intro dialog played | `functions\ticks\level01.mcfunction` |

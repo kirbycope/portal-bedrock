@@ -4,7 +4,7 @@ execute as @s[scores={timer=0}] run scoreboard players set @s timer 1
 # Move player to start
 execute as @s[scores={timer=1}] run teleport @s 11.0 73 16.0 180
 
-# Portal(s)
+# Spawn Portal(s)
 execute as @s[scores={timer=1}] run kill @e[type=portal:blue_portal]
 execute as @s[scores={timer=1}] run summon portal:blue_portal 6.9 71 10 90
 execute as @s[scores={timer=1}] run kill @e[type=portal:red_portal]
