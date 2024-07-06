@@ -1,7 +1,11 @@
 # Start timer
 execute as @s[scores={timer=0}] run scoreboard players set @s timer 1
 
-# Play the radio music
+# Spawn radio
+#execute as @s[scores={timer=1}] run kill @e[type=portal:radio]
+#execute as @s[scores={timer=1}] run summon portal:radio -1 64.5 2.5 45
+
+# Play radio music
 execute as @s[scores={timer=80}] run execute at @e[type=portal:radio] run playsound radio.loop
 
 # GLaDOS - 00 Intro
