@@ -1,3 +1,8 @@
+execute as @p[scores={btn_01_01=1}] run setblock -1 69 5 minecraft:air
+execute as @p[scores={btn_01_01=1}] run setblock 0 69 5 minecraft:air
+execute as @p[scores={btn_01_01=1}] run playsound ding.off @p ~ ~ ~ 0.5
+scoreboard players set @a btn_01_01 0
+
 # Toggle indicators
 setblock 5 70 14 black_glazed_terracotta ["facing_direction"=4]
 setblock 5 70 13 black_glazed_terracotta ["facing_direction"=4]

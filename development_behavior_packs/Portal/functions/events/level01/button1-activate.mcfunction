@@ -1,3 +1,8 @@
+execute as @p[scores={btn_01_01=0}] run setblock -1 69 5 minecraft:redstone_torch
+execute as @p[scores={btn_01_01=0}] run setblock 0 69 5 minecraft:redstone_torch
+execute as @p[scores={btn_01_01=0}] run playsound ding.on @p ~ ~ ~ 0.5
+scoreboard players set @a btn_01_01 1
+
 # Toggle indicators
 setblock 5 70 14 gray_glazed_terracotta ["facing_direction"=4]
 setblock 5 70 13 gray_glazed_terracotta ["facing_direction"=4]
