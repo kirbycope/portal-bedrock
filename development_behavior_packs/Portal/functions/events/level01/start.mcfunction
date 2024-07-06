@@ -12,4 +12,4 @@ kill @e[type=portal:weighted_storage_cube]
 summon portal:weighted_storage_cube 5 71 4
 
 # Update progress
-scoreboard players set @s progress 4
+scoreboard players set @s progress 5
