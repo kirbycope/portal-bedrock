@@ -2,7 +2,7 @@
 execute as @a[scores={progress=0}] run function events/level00/start
 
 # Level 00 - Button
-execute positioned 11 62 0 as @e[family=player,r=1.4] run function events/level00-button1-activate
+execute positioned 11 62 0 as @e[family=player,r=1.4] run function events/level00/button1-activate
 execute positioned 11 62 0 unless entity @e[family=player,r=1.4] run function events/level00/button1-deactivate
 
 # Level 00 - End
