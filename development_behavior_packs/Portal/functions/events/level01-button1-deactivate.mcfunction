@@ -16,4 +16,4 @@ setblock -2 70 8 light_blue_glazed_terracotta ["facing_direction"=4]
 setblock -2 70 7 light_blue_glazed_terracotta ["facing_direction"=4]
 setblock -2 70 6 light_blue_glazed_terracotta ["facing_direction"=4]
 setblock -2 71 5 blue_concrete
-setblock -2 72 5  portal:signage_doorstate_on ["minecraft:facing_direction"="north"]
+setblock -2 72 5  portal:signage_doorstate_off ["minecraft:facing_direction"="north"]
