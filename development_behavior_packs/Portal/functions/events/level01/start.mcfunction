@@ -1,6 +1,10 @@
 # Move player to start
 teleport @s 11.0 73 16.0 180
 
+# Reset "held" items if any
+scoreboard players set @s radio_held 0
+scoreboard players set @s wc_held 0
+
 # Spawn radio
 kill @e[type=portal:radio]
 summon portal:radio 7.0 74 7.5 90
