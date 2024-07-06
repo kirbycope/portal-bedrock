@@ -1,3 +1,4 @@
+execute as @p[scores={progress=6}] run scoreboard players set @s progress 7
 execute as @p[scores={btn_01_01=0}] run setblock -1 69 5 minecraft:redstone_torch
 execute as @p[scores={btn_01_01=0}] run setblock 0 69 5 minecraft:redstone_torch
 execute as @p[scores={btn_01_01=0}] run playsound ding.on @p ~ ~ ~ 0.5
