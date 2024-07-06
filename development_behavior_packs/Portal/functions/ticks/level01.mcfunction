@@ -15,5 +15,5 @@ execute as @s[scores={timer=160}] run tp @e[type=portal:red_portal] 3.1 61 4 270
 execute as @s[scores={timer=166}] run scoreboard players set @s timer 1
 
 # Level 01 - Button
-execute positioned 5 70 15 as @e[family=player,r=1.4] run function events/level01/button1-activate
-execute positioned 5 70 15 unless entity @e[family=player,r=1.4] run function events/level01/button1-deactivate
+execute positioned 5 70 15 as @e[family=heavy,r=1.4] run function events/level01/button1-activate
+execute positioned 5 70 15 unless entity @e[family=heavy,r=1.4] run function events/level01/button1-deactivate
