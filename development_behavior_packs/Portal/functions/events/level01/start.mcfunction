@@ -1,6 +1,10 @@
 # Move player to start
 teleport @s 11.0 73 16.0 180
 
+# Spawn radio
+kill @e[type=portal:radio]
+summon portal:radio 7.0 74 7.5 90
+
 # Spawn Portal(s)
 kill @e[type=portal:blue_portal]
 summon portal:blue_portal 6.9 71 10 90

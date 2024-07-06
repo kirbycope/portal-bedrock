@@ -2,8 +2,12 @@
 execute as @s[scores={timer=0}] run scoreboard players set @s timer 1
 
 # Spawn radio
-#execute as @s[scores={timer=1}] run kill @e[type=portal:radio]
-#execute as @s[scores={timer=1}] run summon portal:radio -1 64.5 2.5 45
+execute as @s[scores={timer=1}] run kill @e[type=portal:radio]
+execute as @s[scores={timer=1}] run summon portal:radio -1 64.5 2.5 45
+
+# Weighted Storage Cube
+execute as @s[scores={timer=1}] run kill @e[type=portal:weighted_storage_cube]
+execute as @s[scores={timer=1}] run summon portal:weighted_storage_cube 13.5 63 4.5 45
 
 # Play radio music
 execute as @s[scores={timer=80}] run execute at @e[type=portal:radio] run playsound radio.loop
