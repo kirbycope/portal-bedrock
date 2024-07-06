@@ -1,4 +1,10 @@
 {
+	"signage_doorstate_on": {
+		"sound": "stone"
+	},
+	"signage_doorstate_off": {
+		"sound": "stone"
+	},
 	"wall_45_02": {
 		"sound": "metal"
 	},

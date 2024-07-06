@@ -27,3 +27,5 @@ tile.portal:wall_45_02.name=Wall 45 02
 item.portal:handheld_portal_device=Handheld Portal Device
 entity.portal:click_detection.name=Click Detection
 item.spawn_egg.entity.portal:click_detection.name=Spawn Click Detection
+tile.portal:signage_doorstate_off.name=Signage Doorstate Off
+tile.portal:signage_doorstate_on.name=Signage Doorstate On
