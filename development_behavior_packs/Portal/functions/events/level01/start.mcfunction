@@ -7,7 +7,7 @@ scoreboard players set @s wc_held 0
 
 # Spawn radio
 kill @e[type=portal:radio]
-summon portal:radio 7.0 74 7.5 90
+summon portal:radio 7.0 74.5 7.5 90
 
 # Spawn Portal(s)
 kill @e[type=portal:blue_portal]
