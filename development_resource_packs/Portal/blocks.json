@@ -11,9 +11,6 @@
 	"wall_45_01": {
 		"sound": "metal"
 	},
-	"camera_arm": {
-		"sound": "metal"
-	},
 	"observation_window_04": {
 		"sound": "glass"
 	},

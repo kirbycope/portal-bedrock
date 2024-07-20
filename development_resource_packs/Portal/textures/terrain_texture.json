@@ -16,9 +16,6 @@
 		"wall_45_01": {
 			"textures": "textures/blocks/wall_45_01.png"
 		},
-		"camera_arm": {
-			"textures": "textures/blocks/camera_arm.png"
-		},
 		"observation_window_01": {
 			"textures": "textures/blocks/observation_window_01.png"
 		},

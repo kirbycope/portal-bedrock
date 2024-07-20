@@ -28,6 +28,7 @@
 			  "target_distance": 8.0,
 			  "probability": 1.00
 			},
+			"minecraft:body_rotation_blocked": {},
 			"minecraft:physics": {
 				"has_gravity": false,
 				"has_collision": true
