@@ -18,8 +18,8 @@
 			},
 			"minecraft:body_rotation_blocked": {},
 			"minecraft:collision_box": {
-				"width": 1.0,
-				"height": 1.0
+				"width": 0.5,
+				"height": 0.5
 			},
 			"minecraft:damage_sensor": {
 				"triggers": [

@@ -29,6 +29,7 @@
 					}
 				]
 			},
+			"minecraft:is_stackable": {},
 			"minecraft:physics": {
 				"has_gravity": true,
 				"has_collision": true
