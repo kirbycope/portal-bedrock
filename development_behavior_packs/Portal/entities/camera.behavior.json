@@ -8,12 +8,18 @@
 			"is_experimental": false
 		},
 		"components": {
+			"minecraft:behavior.look_at_player": {
+				"priority": 1,
+				"target_distance": 8.0,
+				"probability": 1.00
+			},
 			"minecraft:breathable": {
 				"breathes_water": true
 			},
+			"minecraft:body_rotation_blocked": {},
 			"minecraft:collision_box": {
-				"width": 0.0,
-				"height": 0.0
+				"width": 1.0,
+				"height": 1.0
 			},
 			"minecraft:damage_sensor": {
 				"triggers": [
@@ -23,12 +29,7 @@
 					}
 				]
 			},
-			"minecraft:behavior.look_at_player": {
-			  "priority": 1,
-			  "target_distance": 8.0,
-			  "probability": 1.00
-			},
-			"minecraft:body_rotation_blocked": {},
+			"minecraft:is_stackable": {},
 			"minecraft:physics": {
 				"has_gravity": false,
 				"has_collision": true

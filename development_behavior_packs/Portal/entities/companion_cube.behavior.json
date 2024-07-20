@@ -12,8 +12,8 @@
 				"breathes_water": true
 			},
 			"minecraft:collision_box": {
-			  "width": 1.0,
-			  "height": 1.0
+				"width": 1.0,
+				"height": 1.0
 			},
 			"minecraft:damage_sensor": {
 				"triggers": [
