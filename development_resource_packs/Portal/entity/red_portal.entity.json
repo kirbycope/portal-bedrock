@@ -12,8 +12,19 @@
 			"geometry": {
 				"default": "geometry.red_portal"
 			},
-			"render_controllers": ["controller.render.default"],
-			"spawn_egg": {
+            "animations": {
+                "idle": "animation.red_portal.idle"
+            },
+			"particle_effects": {
+				"red_effect": "portal:red_effect"
+			},
+			"scripts": {
+				"animate": ["idle"]
+			},
+            "render_controllers": [
+                "controller.render.agent"
+            ],
+				"spawn_egg": {
 				"base_color": "#ffffff",
 				"overlay_color": "#fc0000"
 			}

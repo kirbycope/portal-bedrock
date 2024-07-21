@@ -12,7 +12,18 @@
 			"geometry": {
 				"default": "geometry.blue_portal"
 			},
-			"render_controllers": ["controller.render.default"],
+            "animations": {
+                "idle": "animation.blue_portal.idle"
+            },
+			"particle_effects": {
+				"blue_effect": "portal:blue_effect"
+			},
+			"scripts": {
+				"animate": ["idle"]
+			},
+            "render_controllers": [
+                "controller.render.agent"
+            ],
 			"spawn_egg": {
 				"base_color": "#ffffff",
 				"overlay_color": "#0025fc"
