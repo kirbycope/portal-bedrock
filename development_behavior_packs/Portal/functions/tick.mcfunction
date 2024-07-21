@@ -14,7 +14,7 @@ execute at @a[scores={wc_held=1}] run tp @e[type=portal:weighted_storage_cube] ^
 scoreboard players reset @a[scores={wc_held=2..}] wc_held
 
 # "Hold" the 📻 Radio
-execute at @a[scores={radio_held=1}] run tp @e[type=portal:radio] ^ ^1.3 ^1 ~ ~ true
+execute at @a[scores={radio_held=1}] run tp @e[type=portal:radio] ^ ^1.3 ^1.8 ~ ~ true
 
 # Reset Radio held (if necessary)
 scoreboard players reset @a[scores={radio_held=2..}] radio_held
