@@ -3,7 +3,7 @@
 	"animations": {
 		"animation.red_portal.idle": {
 			"loop": true,
-			"animation_length": 0.4,
+			"animation_length": 1.0,
 			"particle_effects": {
 				"0.0": {
 					"effect": "red_effect",
