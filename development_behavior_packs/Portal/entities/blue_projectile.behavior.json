@@ -1,0 +1,54 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "portal:blue_projectile",
+            "is_spawnable": false,
+            "is_summonable": true,
+            "is_experimental": false
+        },
+        "components": {
+            "minecraft:collision_box": {
+              "width": 0.25,
+              "height": 0.25
+            },
+            "minecraft:physics": {
+            },
+            "minecraft:projectile": {
+                "on_hit": {
+                    "definition_event": {
+                        "event_trigger": {
+                            "event": "portal:place",
+                            "target": "self"
+                        }
+                    },
+                    "spawn_chance": {
+                        "first_spawn_count": 1,
+                        "first_spawn_percent_chance": 100.0,
+                        "spawn_definition": "portal:blue_portal"
+                    }
+                },
+                "anchor": 1,
+                "power": 1.5,
+                "gravity": 0.03,
+                "angle_offset": 0.0,
+                "offset": [0, -0.1, 0]
+            },
+            "minecraft:pushable": {
+                "is_pushable": true,
+                "is_pushable_by_piston": true
+            }
+        },
+        "events": {
+            "portal:place": {
+                "sequence": [
+                    {
+                        "queue_command": {
+                            "command": "function events/place-portal-blue"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

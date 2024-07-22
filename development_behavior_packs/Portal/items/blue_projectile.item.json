@@ -1,0 +1,17 @@
+{
+    "format_version": "1.20.50",
+    "minecraft:item": {
+        "description": {
+            "identifier": "portal:blue_projectile_item",
+            "category": "Items"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "snowball"
+            },
+            "minecraft:projectile": {
+                "projectile_entity": "portal:blue_projectile"
+            }
+        }
+    }
+}
