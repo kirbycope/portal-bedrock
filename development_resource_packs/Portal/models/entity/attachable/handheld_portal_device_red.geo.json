@@ -3,7 +3,7 @@
 	"minecraft:geometry": [
 		{
 			"description": {
-				"identifier": "geometry.handheld_portal_device",
+				"identifier": "geometry.handheld_portal_device_red",
 				"texture_width": 16,
 				"texture_height": 16
 			},

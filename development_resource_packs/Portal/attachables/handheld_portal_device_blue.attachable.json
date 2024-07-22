@@ -2,22 +2,22 @@
 	"format_version": "1.10.0",
 	"minecraft:attachable": {
 		"description": {
-			"identifier": "portal:handheld_portal_device",
+			"identifier": "portal:handheld_portal_device_blue",
 			"render_controllers": ["controller.render.item_default"],
 			"materials": {
 				"default": "entity_alphatest",
 				"enchanted": "entity_alphatest_glint"
 			},
 			"textures": {
-				"default": "textures/entity/attachable/handheld_portal_device",
+				"default": "textures/entity/attachable/handheld_portal_device_blue",
 				"enchanted": "textures/misc/enchanted_item_glint"
 			},
 			"geometry": {
-				"default": "geometry.handheld_portal_device"
+				"default": "geometry.handheld_portal_device_blue"
 			},
 			"animations": {
-				"first_person_hold": "animation.handheld_portal_device.first_person_hold",
-				"third_person_hold": "animation.handheld_portal_device.third_person_hold"
+				"first_person_hold": "animation.handheld_portal_device_blue.first_person_hold",
+				"third_person_hold": "animation.handheld_portal_device_blue.third_person_hold"
 			},
 			"scripts": {
 				"animate": [

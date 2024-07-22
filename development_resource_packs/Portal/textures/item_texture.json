@@ -1,7 +1,10 @@
 {
 	"texture_data": {
-		"handheld_portal_device": {
-			"textures": "textures/items/handheld_portal_device.png"
+		"handheld_portal_device_blue": {
+			"textures": "textures/items/handheld_portal_device_blue.png"
+		},
+		"handheld_portal_device_red": {
+			"textures": "textures/items/handheld_portal_device_red.png"
 		},
 		"companion_cube_spawn_egg": {
 			"textures": ["textures/items/companion_cube_spawn_egg"]

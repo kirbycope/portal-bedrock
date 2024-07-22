@@ -21,10 +21,18 @@ scoreboard players reset @a[scores={radio_held=2..}] radio_held
 
 ## Work in Progress #########################
 
+# Kill all tagged portals if a projectile is fired
+execute as @e[type=portal:blue_projectile] run kill @e[type=portal:blue_portal,tag=tagged]
+execute as @e[type=portal:red_projectile] run kill @e[type=portal:red_portal,tag=tagged]
+
+# Tag new portals
+execute as @e[type=portal:blue_portal,tag=!tagged] run tag @s add tagged
+execute as @e[type=portal:red_portal,tag=!tagged] run tag @s add tagged
+
 # Set Portal Gun held check result to 0
 scoreboard players set @a gun_held 0
 # Check if holding the Portal Gun
-scoreboard players set @a[hasitem={item=portal:handheld_portal_device,location=slot.weapon.mainhand}] gun_held 1
+scoreboard players set @a[hasitem={item=portal:handheld_portal_device_blue,location=slot.weapon.mainhand}] gun_held 1
 # Move the click detection entity if not holding the Portal Gun
 execute at @a[scores={gun_held=0}] run tp @e[type=portal:click_detection] ~ ~-2.1 ~
 # Summon/Teleport the click detection entity to the player's location (slightly under to hide shadow)
