@@ -1,0 +1,37 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "portal:handheld_portal_device_red",
+			"menu_category": {
+				"category": "equipment"
+			}
+		},
+		"components": {
+			"minecraft:can_destroy_in_creative": false,
+			"minecraft:icon": {
+				"texture": "handheld_portal_device_red"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:shooter": {
+				"ammunition": [
+					{
+						"item": "portal:red_projectile_item",
+						"use_offhand": true,
+						"search_inventory": true,
+						"use_in_creative": true
+					}
+				],
+				"max_draw_duration": 1.0,
+				"scale_power_by_draw_duration": false,
+				"charge_on_draw": false
+			},
+			"minecraft:projectile": {
+				"projectile_entity": "portal:red_projectile"
+			},
+			"minecraft:use_modifiers": {
+				"use_duration": 0.01
+			}
+		}
+	}
+}
