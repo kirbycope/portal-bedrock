@@ -19,7 +19,7 @@
                     "definition_event": {
                         "event_trigger": {
                             "event": "portal:place",
-                            "target": "player"
+                            "target": "self"
                         }
                     },
                     "spawn_chance": {
