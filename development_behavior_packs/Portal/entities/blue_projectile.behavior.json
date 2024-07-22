@@ -19,14 +19,15 @@
                     "definition_event": {
                         "event_trigger": {
                             "event": "portal:place",
-                            "target": "self"
+                            "target": "player"
                         }
                     },
                     "spawn_chance": {
                         "first_spawn_count": 1,
                         "first_spawn_percent_chance": 100.0,
                         "spawn_definition": "portal:blue_portal"
-                    }
+                    },
+                    "remove_on_hit": {}
                 },
                 "anchor": 1,
                 "power": 1.5,
