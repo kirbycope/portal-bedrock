@@ -35,7 +35,7 @@ execute positioned 5 70 15 unless entity @e[family=heavy,r=1.4] run function eve
 execute as @a[scores={progress=7}] run function events/level01/end
 
 # Level 01 - Material Emancipation Grill
-execute as @a[scores={progress=8..9}] run particle portal:material_emancipation_grid -1 71 3
+execute as @a[scores={progress=7..8}] run particle portal:material_emancipation_grid -1 71 3
 
 # Level 01 - Elevator
 execute as @p[x=-1,y=71,z=5,dx=1,dy=0,dz=0,scores={progress=8}] run scoreboard players set @s progress 9
