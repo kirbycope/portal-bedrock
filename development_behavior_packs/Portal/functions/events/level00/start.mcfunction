@@ -5,7 +5,7 @@ execute as @s[scores={timer=0}] run scoreboard players set @s timer 1
 execute as @s[scores={timer=1}] run kill @e[type=portal:radio]
 execute as @s[scores={timer=1}] run summon portal:radio -1 64.5 2.5 45
 
-# Summon ⬜ weighted storage cube
+# Summon ⏺ weighted storage cube
 execute as @s[scores={timer=1}] run kill @e[type=portal:weighted_storage_cube]
 execute as @s[scores={timer=1}] run summon portal:weighted_storage_cube 13.5 63 4.5 45
 

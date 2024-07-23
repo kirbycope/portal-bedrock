@@ -31,7 +31,7 @@ execute positioned 5 70 15 as @e[family=heavy,r=1.4] run function events/level01
 # Level 01 - [Deactivate] Heavy Duty Super-Colliding Super Button
 execute positioned 5 70 15 unless entity @e[family=heavy,r=1.4] run function events/level01/button1-deactivate
 
-# Level 01 - End
+# Level 01 - Outro, after the button has been pressed the first time
 execute as @a[scores={progress=7}] run function events/level01/end
 
 # Level 01 - Material Emancipation Grill
