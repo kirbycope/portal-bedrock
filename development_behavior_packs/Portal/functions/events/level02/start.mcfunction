@@ -25,8 +25,12 @@ execute as @s[scores={timer=80}] run tellraw @s {"rawtext":[{"text":"§c§oYou'r
 execute as @s[scores={timer=130}] run playsound 02.entry.2 @s
 execute as @s[scores={timer=130}] run tellraw @s {"rawtext":[{"text":"§c§oPlease be advised that a noticeable taste of blood is not part of any test protocol but is an unintended side effect of the Aperture Science Material Emancipation Grill, which may, in semi-rare cases, emancipate dental fillings, crowns, tooth enamel, and teeth.§r§c§r"}]}
 
+# Open 🚪 door(s)
+execute as @s[scores={timer=480}] run setblock -4 79 4 minecraft:redstone_torch
+execute as @s[scores={timer=480}] run setblock -4 79 5 minecraft:redstone_torch
+
 # Update 📋 progress
-execute as @s[scores={timer=140}] run scoreboard players set @s progress 10
+execute as @s[scores={timer=500}] run scoreboard players set @s progress 10
 
 # Stop ⏲ timer
-execute as @s[scores={timer=140..}] run scoreboard players set @s timer 0
+execute as @s[scores={timer=500..}] run scoreboard players set @s timer 0

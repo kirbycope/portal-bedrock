@@ -73,6 +73,18 @@
                 "sounds/glados/00_part2_success-1"
             ]
         },
+        "02.entry.1":{
+            "category": "neutral",
+            "sounds": [
+                "sounds/glados/01_part1_entry-1"
+            ]
+        },
+        "02.entry.2":{
+            "category": "neutral",
+            "sounds": [
+                "sounds/glados/01_part1_entry-2"
+            ]
+        },
         "ding.off":{
             "category": "neutral",
             "sounds": [
