@@ -44,7 +44,10 @@ execute at @a[scores={gun_held=1}] run tp @e[type=portal:click_detection] ~ ~-0.
 execute as @a[scores={progress=0..3}] run function ticks/level00
 
 # Level 01 - Tick
-execute as @a[scores={progress=4..}] run function ticks/level01
+execute as @a[scores={progress=4..8}] run function ticks/level01
+
+# Level 02 - Tick
+execute as @a[scores={progress=9..}] run function ticks/level02
 
 # Increment timer if running
 execute as @a[scores={timer=1..}] run scoreboard players add @s timer 1

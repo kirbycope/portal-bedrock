@@ -26,10 +26,16 @@ execute as @s[scores={timer=242}] run tp @e[type=portal:red_portal] 3.1 71 4 270
 # Reset
 execute as @s[scores={timer=244}] run scoreboard players set @s timer 1
 
-# Level 01 - Button
+# Level 01 - [Activate] Heavy Duty Super-Colliding Super Button
 execute positioned 5 70 15 as @e[family=heavy,r=1.4] run function events/level01/button1-activate
+# Level 01 - [Deactivate] Heavy Duty Super-Colliding Super Button
 execute positioned 5 70 15 unless entity @e[family=heavy,r=1.4] run function events/level01/button1-deactivate
-execute as @a[scores={progress=7}] run function events/level01/end
 
 # Level 01 - End
+execute as @a[scores={progress=7}] run function events/level01/end
+
+# Level 01 - Material Emancipation Grill
+execute as @a[scores={progress=8..9}] run particle portal:material_emancipation_grid -1 71 3
+
+# Level 01 - Elevator
 execute as @p[x=-1,y=71,z=5,dx=1,dy=0,dz=0,scores={progress=8}] run scoreboard players set @s progress 9

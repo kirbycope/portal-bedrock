@@ -2,6 +2,7 @@
 teleport @s 11.0 73 16.0 180
 
 # Reset "held" items if any
+scoreboard players set @s cc_held 0
 scoreboard players set @s radio_held 0
 scoreboard players set @s wc_held 0
 
