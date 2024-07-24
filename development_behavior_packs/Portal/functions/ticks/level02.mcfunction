@@ -17,18 +17,3 @@ execute as @p[x=-5,y=81,z=14,dx=2,dy=0,dz=3,scores={progress=14}] run function e
 # Level 02 - Material Emancipation Grill
 #execute as @a[scores={progress=15..16}] run particle portal:material_emancipation_grid 3 81 15
 
-# "Very good! You are now in possession of the Aperture Science Handheld Portal Device."
-
-# "With it, you can create your own portals."
-
-# "These intra dimensional gates have proven to be completely safe."
-
-# "The Device, however, has not."
-
-# "Do not touch the operational end of The Device."
-
-# "Do not look directly at the operational end of The Device."
-
-# "Do not submerge The Device in liquid, even partially."
-
-# "Most importantly, under no circumstances should you [bzzzpt]"
