@@ -5,7 +5,7 @@ execute as @s[scores={progress=5}] run function events/level01/load
 execute as @p[x=3,y=71,z=7,dx=3,dy=0,dz=5,scores={progress=6}] run function events/level01/start
 
 # Level 01 - Event loop
-execute as @p[scores={progress=7..8}] run function events/level01/loop
+execute as @p[scores={progress=6..9}] run function events/level01/loop
 
 # Level 01 - [Activate] Heavy Duty Super-Colliding Super Button
 execute positioned 5 70 15 as @e[family=heavy,r=1.4] run function events/level01/button1-activate

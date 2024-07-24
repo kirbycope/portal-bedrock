@@ -5,7 +5,7 @@ execute as @s[scores={progress=10}] run function events/level02/load
 execute as @a[scores={progress=11}] run function events/level02/start
 
 # Level 02 - Event loop
-execute as @p[scores={progress=12}] run function events/level02/loop
+execute as @p[scores={progress=11..12}] run function events/level02/loop
 
 # Level 02 - Get portal gun
 execute positioned -2 80 10 as @e[family=player,r=2,scores={progress=12}] run scoreboard players set @s progress 13
