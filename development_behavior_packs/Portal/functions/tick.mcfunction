@@ -47,7 +47,10 @@ execute as @a[scores={progress=0..4}] run function ticks/level00
 execute as @a[scores={progress=5..9}] run function ticks/level01
 
 # Level 02 - Tick
-execute as @a[scores={progress=10..}] run function ticks/level02
+execute as @a[scores={progress=10..14}] run function ticks/level02
+
+# Level 03 - Tick
+execute as @a[scores={progress=15..}] run function ticks/level03
 
 # Increment timer(s) if running
 execute as @a[scores={loop_timer=1..}] run scoreboard players add @s loop_timer 1

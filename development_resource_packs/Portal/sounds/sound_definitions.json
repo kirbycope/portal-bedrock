@@ -129,14 +129,14 @@
         "02.get.portal.gun.7":{
             "category": "neutral",
             "sounds": [
-                "sounds/glados/01_part1_get_portal_gun-1"
+                "sounds/glados/01_part1_get_portal_gun-7"
             ]
         },
         
         "02.get.portal.gun.8":{
             "category": "neutral",
             "sounds": [
-                "sounds/glados/01_part1_get_portal_gun-1"
+                "sounds/glados/01_part1_get_portal_gun-8"
             ]
         },
         "ding.off":{

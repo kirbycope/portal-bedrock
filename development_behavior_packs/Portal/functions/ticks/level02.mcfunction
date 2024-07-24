@@ -1,4 +1,4 @@
-# level 01 - Load
+# level 02 - Load
 execute as @s[scores={progress=10}] run function events/level02/load
 
 # Level 02 - Start
@@ -17,3 +17,5 @@ execute as @p[x=-5,y=81,z=14,dx=2,dy=0,dz=3,scores={progress=14}] run function e
 # Level 02 - Material Emancipation Grill
 #execute as @a[scores={progress=15..16}] run particle portal:material_emancipation_grid 3 81 15
 
+# Level 02 - Elevator
+execute as @p[x=5,y=81,z=15,dx=1,dy=0,dz=0,scores={progress=15}] run scoreboard players set @s progress 16
