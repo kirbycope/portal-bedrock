@@ -1,14 +1,6 @@
 # Start ⏲ timer
 execute as @s[scores={timer=0}] run scoreboard players set @s timer 1
 
-# Summon 📻 radio
-execute as @s[scores={timer=1}] run kill @e[type=portal:radio]
-execute as @s[scores={timer=1}] run summon portal:radio -1 64.5 2.5 45
-
-# Summon ⏺ weighted storage cube
-execute as @s[scores={timer=1}] run kill @e[type=portal:weighted_storage_cube]
-execute as @s[scores={timer=1}] run summon portal:weighted_storage_cube 13.5 63 4.5 45
-
 # Play 📻 radio music
 execute as @s[scores={timer=80}] run execute at @e[type=portal:radio] run playsound radio.loop
 
@@ -32,14 +24,14 @@ execute as @s[scores={timer=1260}] run tellraw @s {"rawtext":[{"text":"§c§osta
 execute as @s[scores={timer=1380}] run playsound ding.on @s
 execute as @s[scores={timer=1385}] run playsound portal.open.1 @s
 
-# Summon 🔵 blue portal
+# Summon 🔵 [blue] portal
 execute as @s[scores={timer=1385}] run summon portal:blue_portal 0 63 6.9 180 0
 
-# Summon 🔴 red portal
+# Summon 🔴 [red] portal
 execute as @s[scores={timer=1385}] run summon portal:red_portal 1.9 64 2 90 0
 
 # Update 📋 progress
-execute as @s[scores={timer=1420}] run scoreboard players set @s progress 1
+execute as @s[scores={timer=1420}] run scoreboard players set @s progress 2
 
 # Stop ⏲ timer
 execute as @s[scores={timer=1420..}] run scoreboard players set @s timer 0

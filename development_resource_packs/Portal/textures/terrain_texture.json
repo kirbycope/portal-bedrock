@@ -4,6 +4,12 @@
 	"padding": 8,
 	"num_mip_levels": 4,
 	"texture_data": {
+		"handheld_portal_device": {
+			"textures": "textures/blocks/handheld_portal_device.png"
+		},
+		"handheld_portal_device_blue": {
+			"textures": "textures/entity/attachable/handheld_portal_device_blue.png"
+		},
 		"signage_doorstate_on": {
 			"textures": "textures/blocks/signage_doorstate_on.png"
 		},

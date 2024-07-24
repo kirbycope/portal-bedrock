@@ -10,7 +10,7 @@ execute as @s[scores={timer=200}] run playsound 00.success.3 @s
 execute as @s[scores={timer=200}] run tellraw @s {"rawtext":[{"text":"§c§oThis Aperture Science Material Emancipation Grill will vaporize any unauthorized equipment that passes through it - for instance, the Aperture Science Weighted Storage Cube.§r§c§r"}]}
 
 # Update 📋 progress
-execute as @s[scores={timer=440}] run scoreboard players set @s progress 3
+execute as @s[scores={timer=440}] run scoreboard players set @s progress 4
 
 # Stop ⏲ timer
 execute as @s[scores={timer=440..}] run scoreboard players set @s timer 0

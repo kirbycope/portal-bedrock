@@ -1,4 +1,7 @@
 {
+	"handheld_portal_device": {
+		"sound": "metal"
+	},
 	"signage_doorstate_on": {
 		"sound": "stone"
 	},
