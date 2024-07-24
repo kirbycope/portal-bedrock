@@ -5,7 +5,7 @@ function events/reset-held-items
 teleport @s -0.1 81 -0.1 0
 
 # Set iron bar(s)
-setblock -2 79 10 iron_bars
+setblock -2 79 10 minecraft:iron_bars
 
 # Set 🔫 portal gun
 setblock -2 80 10 portal:handheld_portal_device ["minecraft:cardinal_direction"="north"]
@@ -16,7 +16,7 @@ summon portal:blue_portal -2 79 13.9
 
 # Summon 🔴 [red] portal
 kill @e[type=portal:red_portal]
-summon portal:red_portal -4 81 17.9
+summon portal:red_portal -4 81 17.9 180
 
 # Summon 📻 radio
 kill @e[type=portal:radio]

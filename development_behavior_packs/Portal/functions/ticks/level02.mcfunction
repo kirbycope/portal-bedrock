@@ -6,3 +6,12 @@ execute as @a[scores={progress=11}] run function events/level02/start
 
 # Level 02 - Event loop
 execute as @p[scores={progress=12}] run function events/level02/loop
+
+# Level 02 - Get portal gun
+execute positioned -2 80 10 as @e[family=player,r=2,scores={progress=12}] run function events/level02/get-portal-gun
+
+# Level 02 - Upper platform reached
+execute as @p[x=-5,y=81,z=14,dx=2,dy=0,dz=3,scores={progress=13}] run function events/level02/platform-reached
+
+# Level 02 - Material Emancipation Grill
+#execute as @a[scores={progress=14..15}] run particle portal:material_emancipation_grid 3 81 15

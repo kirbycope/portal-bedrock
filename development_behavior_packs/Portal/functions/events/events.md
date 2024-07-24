@@ -16,3 +16,4 @@ This document is used to define the progression.
 | 10    | Level 01 Elevator reached    | `functions\ticks\level01.mcfunction` |
 | 11    | Level 02 Loaded              | `functions\events\level02\load.mcfunction` |
 | 12    | Level 02 Intro dialog played | `functions\events\level02\start.mcfunction` |
+| 13    | Level 02 Portal gun acquired | `functions\events\level02\get-portal-gun.mcfunction` |
