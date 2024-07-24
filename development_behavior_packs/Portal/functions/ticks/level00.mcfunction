@@ -20,4 +20,4 @@ execute at @e[x=10,y=63,z=11,dx=1,dy=2,dz=4,type=!minecraft:player] run playsoun
 execute as @e[x=10,y=63,z=11,dx=1,dy=2,dz=4,type=!minecraft:player] run kill @s
 
 # Level 00 - Elevator
-execute at @e[scores={progress=3..},x=9,y=63,z=14,dx=4,dy=2,dz=4] run scoreboard players set @s progress 5
+execute at @e[scores={progress=4},x=9,y=63,z=14,dx=4,dy=2,dz=4] run scoreboard players set @s progress 5
