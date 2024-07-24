@@ -32,7 +32,7 @@ execute as @s[scores={timer=490}] run playsound 02.get.portal.gun.8 @s
 execute as @s[scores={timer=490}] run tellraw @s {"rawtext":[{"text":"§c§oMost importantly, under no circumstances should you [bzzzpt]§r§c§r"}]}
 
 # Update 📋 progress
-execute as @s[scores={timer=580}] run scoreboard players set @s progress 14
+execute as @s[scores={timer=1}] run scoreboard players set @s progress 14
 
 # Stop ⏲ timer
 execute as @s[scores={timer=580..}] run scoreboard players set @s timer 0

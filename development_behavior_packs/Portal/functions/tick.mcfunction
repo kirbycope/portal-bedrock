@@ -36,10 +36,10 @@ execute as @a[scores={progress=0..4}] run function events/level00/tick
 execute as @a[scores={progress=5..9}] run function events/level01/tick
 
 # Test 🧪 Chamber 02 tick
-execute as @a[scores={progress=10..14}] run function events/level02/tick
+execute as @a[scores={progress=10..16}] run function events/level02/tick
 
 # Test 🧪 Chamber 03 tick
-execute as @a[scores={progress=15..19}] run function events/level03/tick
+execute as @a[scores={progress=16..19}] run function events/level03/tick
 
 # Test 🧪 Chamber 04 tick
 execute as @a[scores={progress=20..24}] run function events/level04/tick

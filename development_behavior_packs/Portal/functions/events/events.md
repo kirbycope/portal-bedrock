@@ -24,3 +24,4 @@ This document is used to define the progression.
 | 18    | Level 03 Intro dialog played      | `functions\events\level03\start.mcfunction`               |
 | 19    | Level 03 Platform reached         | `functions\events\level03\end.mcfunction`                 |
 | 20    | Level 03 Elevator reached         | `functions\events\level03\tick.mcfunction`                |
+| 21    | Level 04 loaded                   | `functions\events\level04\load.mcfunction`                |
