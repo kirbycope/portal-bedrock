@@ -1,3 +1,5 @@
+# Update progress if the button is down (and not by a player standing on it)
+execute as @s[family=!player] run scoreboard players set @p[scores={progress=2}] progress 3
 execute as @p[scores={btn_00_01=0}] run setblock 10 61 6 minecraft:redstone_torch
 execute as @p[scores={btn_00_01=0}] run setblock 11 61 6 minecraft:redstone_torch
 execute as @p[scores={btn_00_01=0}] run playsound ding.on @p ~ ~ ~ 0.5

@@ -16,6 +16,10 @@ scoreboard objectives add btn_01_01 dummy "Level 01 Button 01"
 scoreboard players set @s btn_01_01 0
 scoreboard objectives add btn_04_01 dummy "Level 04 Button 01"
 scoreboard players set @s btn_04_01 0
+scoreboard objectives add btn_05_01 dummy "Level 05 Button 01"
+scoreboard players set @s btn_05_01 0
+scoreboard objectives add btn_05_02 dummy "Level 05 Button 02"
+scoreboard players set @s btn_05_02 0
 
 # Add a scoreboard to serve as a loop timer
 scoreboard objectives add loop_timer dummy "Loop Timer"

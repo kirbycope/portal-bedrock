@@ -1,4 +1,5 @@
-#execute as @p[scores={progress=7}] run scoreboard players set @s progress 8
+# Update progress if the button is down (and not by a player standing on it)
+execute as @s[family=!player] run scoreboard players set @p[scores={progress=22}] progress 23
 execute as @p[scores={btn_04_01=0}] run setblock -20 99 16 minecraft:redstone_torch
 execute as @p[scores={btn_04_01=0}] run setblock -19 99 16 minecraft:redstone_torch
 execute as @p[scores={btn_04_01=0}] run playsound ding.on @p ~ ~ ~ 0.5
@@ -20,4 +21,4 @@ setblock -18 100 13 gray_glazed_terracotta ["facing_direction"=4]
 setblock -18 100 14 gray_glazed_terracotta ["facing_direction"=4]
 setblock -18 100 15 gray_glazed_terracotta ["facing_direction"=4]
 setblock -18 101 16 green_concrete
-setblock -18 102 16  portal:signage_doorstate_on ["minecraft:facing_direction"="south"]
+setblock -18 102 16 portal:signage_doorstate_on ["minecraft:facing_direction"="south"]

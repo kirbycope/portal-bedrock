@@ -10,8 +10,7 @@ execute positioned 11 62 0 as @e[family=heavy,r=1.4] run function events/level00
 # Level 00 - [Deactivate] Heavy Duty Super-Colliding Super Button
 execute positioned 11 62 0 unless entity @e[family=heavy,r=1.4] run function events/level00/button1-deactivate
 
-# Level 00 - Outro, when a player enters the area behind final door
-execute as @p[x=11,y=63,z=6,dx=1,dy=0,dz=0,scores={progress=2}] run scoreboard players set @s progress 3
+# Level 00 - Outro
 execute as @a[scores={progress=3}] run function events/level00/end
 
 # Level 00 - Material Emancipation Grill

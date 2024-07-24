@@ -25,4 +25,10 @@ This document is used to define the progression.
 | 19    | Level 03 Platform reached         | `functions\events\level03\end.mcfunction`                 |
 | 20    | Level 03 Elevator reached         | `functions\events\level03\tick.mcfunction`                |
 | 21    | Level 04 loaded                   | `functions\events\level04\load.mcfunction`                |
-| 22    | Level 04 Elevator reached         | `functions\events\level04\tick.mcfunction`                |
+| 22    | Level 04 Intro dialog played      | `functions\events\level04\start.mcfunction`               |
+| 23    | Level 04 Button pressed           | `functions\events\level04\button1-activate.mcfunction`    |
+| 24    | Level 04 Outro dialog played      | `functions\events\level04\end.mcfunction`                 |
+| 25    | Level 04 Elevator reached         | `functions\events\level04\tick.mcfunction`                |
+| 26    | Level 05 loaded                   | `functions\events\level05\load.mcfunction`                |
+| 27    | Level 04 Buttons pressed          | `functions\events\level05\open-door.mcfunction`           |
+| 28    | Level 04 Outro dialog played      | `functions\events\level05\end.mcfunction`                 |

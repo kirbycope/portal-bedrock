@@ -145,6 +145,42 @@
                 "sounds/glados/01_part2_success-1"
             ]
         },
+        "04.entry.1":{
+            "category": "neutral",
+            "sounds": [
+                "sounds/glados/02_part1_entry-1"
+            ]
+        },
+        "04.entry.2":{
+            "category": "neutral",
+            "sounds": [
+                "sounds/glados/02_part1_entry-2"
+            ]
+        },
+        "04.success.1":{
+            "category": "neutral",
+            "sounds": [
+                "sounds/glados/02_part1_success-1"
+            ]
+        },
+        "04.success.2":{
+            "category": "neutral",
+            "sounds": [
+                "sounds/glados/02_part1_success-2"
+            ]
+        },
+        "05.success.1":{
+            "category": "neutral",
+            "sounds": [
+                "sounds/glados/02_part2_success-1"
+            ]
+        },
+        "05.success.2":{
+            "category": "neutral",
+            "sounds": [
+                "sounds/glados/02_part2_success-2"
+            ]
+        },
         "ding.off":{
             "category": "neutral",
             "sounds": [
