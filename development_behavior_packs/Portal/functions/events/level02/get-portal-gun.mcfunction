@@ -11,4 +11,4 @@ replaceitem entity @s slot.hotbar 0 portal:handheld_portal_device_blue
 replaceitem entity @s slot.inventory 26 portal:blue_projectile_item 64
 
 # Update 📋 progress
-scoreboard players set @s progress 13
+scoreboard players set @s progress 14
