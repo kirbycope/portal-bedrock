@@ -18,4 +18,9 @@ This document is used to define the progression.
 | 12    | Level 02 Intro dialog played      | `functions\events\level02\start.mcfunction` |
 | 13    | Level 02 Portal gun reached       | `functions\ticks\level02.mcfunction` |
 | 14    | Level 02 Portal gun dialog played | `functions\events\level02\get-portal-gun.mcfunction` |
-| 15    | Level 02 Elevator reached         | `functions\ticks\level02.mcfunction` |
+| 15    | Level 02 Platform reached         | `functions\events\level02\platform-reached` |
+| 16    | Level 02 Elevator reached         | `functions\ticks\level02.mcfunction` |
+| 17    | Level 03 Loaded                   | `functions\events\level03\load.mcfunction` |
+| 18    | Level 03 Intro dialog played      | `functions\events\level03\start.mcfunction` |
+| 19    | Level 03 Platform reached         | `functions\events\level03\platform-reached` |
+| 20    | Level 03 Elevator reached         | `functions\ticks\level03.mcfunction` |

@@ -97,46 +97,52 @@
                 "sounds/glados/01_part1_get_portal_gun-2"
             ]
         },
-        
         "02.get.portal.gun.3":{
             "category": "neutral",
             "sounds": [
                 "sounds/glados/01_part1_get_portal_gun-3"
             ]
         },
-        
         "02.get.portal.gun.4":{
             "category": "neutral",
             "sounds": [
                 "sounds/glados/01_part1_get_portal_gun-4"
             ]
         },
-        
         "02.get.portal.gun.5":{
             "category": "neutral",
             "sounds": [
                 "sounds/glados/01_part1_get_portal_gun-5"
             ]
         },
-        
         "02.get.portal.gun.6":{
             "category": "neutral",
             "sounds": [
                 "sounds/glados/01_part1_get_portal_gun-6"
             ]
         },
-        
         "02.get.portal.gun.7":{
             "category": "neutral",
             "sounds": [
                 "sounds/glados/01_part1_get_portal_gun-7"
             ]
         },
-        
         "02.get.portal.gun.8":{
             "category": "neutral",
             "sounds": [
                 "sounds/glados/01_part1_get_portal_gun-8"
+            ]
+        },
+        "03.entry.1":{
+            "category": "neutral",
+            "sounds": [
+                "sounds/glados/01_part2_entry-1"
+            ]
+        },
+        "03.success.1":{
+            "category": "neutral",
+            "sounds": [
+                "sounds/glados/01_part2_success-1"
             ]
         },
         "ding.off":{
@@ -179,6 +185,12 @@
             "category": "neutral",
             "sounds": [
                 "sounds/portal_open1"
+            ]
+        },
+        "portalgun.rotate.1": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/portalgun_rotate1"
             ]
         },
         "toilet.use":{

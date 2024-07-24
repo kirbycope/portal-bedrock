@@ -11,4 +11,4 @@ summon portal:red_portal 0 91 -8.0
 kill @e[type=portal:radio]
 
 # Update 📋 progress
-scoreboard players set @s progress 16
+scoreboard players set @s progress 17

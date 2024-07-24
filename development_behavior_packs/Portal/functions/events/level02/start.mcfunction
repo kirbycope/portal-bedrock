@@ -1,7 +1,7 @@
 # Start ⏲ timer
 execute as @s[scores={timer=0}] run scoreboard players set @s timer 1
 
-# GLaDOS 🤖 00 Intro
+# GLaDOS 🤖 02 Intro
 execute as @s[scores={timer=80}] run playsound 02.entry.1 @s
 execute as @s[scores={timer=80}] run tellraw @s {"rawtext":[{"text":"§c§oYou're doing very well!§r§c§r"}]}
 execute as @s[scores={timer=130}] run playsound 02.entry.2 @s
