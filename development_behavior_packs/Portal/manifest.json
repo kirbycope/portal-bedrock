@@ -2,9 +2,9 @@
 	"format_version": 2,
 	"header": {
 		"name": "Portal",
-		"description": "Portal Behavior Pack",
+		"description": "Portal Behavior Pack 1.1.1",
 		"uuid": "ece0da9b-570c-8bfb-6102-cfa970f73229",
-		"version": [1, 1, 0],
+		"version": [1, 1, 1],
 		"min_engine_version": [1, 26, 0]
 	},
 	"metadata": {
@@ -13,7 +13,7 @@
 	"modules": [
 		{
 			"description": "Behavior",
-			"version": [1, 1, 0],
+			"version": [1, 1, 1],
 			"uuid": "f04ad4bf-d292-d15f-bf79-d8723ffe9522",
 			"type": "data"
 		}
@@ -21,7 +21,7 @@
 	"dependencies": [
 		{
 			"uuid": "31f0d202-27c3-4a2f-6bfb-06513ca1afa8",
-			"version": [1, 1, 0]
+			"version": [1, 1, 1]
 		}
 	]
 }
