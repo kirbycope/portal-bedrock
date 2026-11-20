@@ -2,9 +2,9 @@
 	"format_version": 2,
 	"header": {
 		"name": "Portal",
-		"description": "Portal Resource Pack",
+		"description": "Portal Resource Pack 1.1.1",
 		"uuid": "31f0d202-27c3-4a2f-6bfb-06513ca1afa8",
-		"version": [1, 1, 0],
+		"version": [1, 1, 1],
 		"min_engine_version": [1, 26, 0]
 	},
 	"metadata": {
@@ -15,7 +15,7 @@
 			"description": "Portal",
 			"type": "resources",
 			"uuid": "ae6a0eb1-7944-2f49-33e3-f0ec8e0c80f8",
-			"version": [1, 1, 0]
+			"version": [1, 1, 1]
 		}
 	]
 }
